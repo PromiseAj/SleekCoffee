@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sleek Urban Coffee Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mediaquerry.css">
+  <script src="https://kit.fontawesome.com/8b65878429.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <ul class="sidebar" onclick="hideSidebar()">
+      <li><img src="images/close-icon.svg" alt=""></li>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">SERVICE</a></li>
+      <li><a href="#">MENU</a></li>
+      <li><a href="#">PAGES</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+      <ul>
+        <li><a href="#">SLEEK COFFE</a></li>
+        <li class="hide"><a href="#">HOME</a></li>
+        <li class="hide"><a href="#">ABOUT</a></li>
+        <li class="hide"><a href="#">SERVICE</a></li>
+        <li class="hide"><a href="#">MENU</a></li>
+        <li class="hide"><a href="#">PAGES</a></li>
+        <li class="hide"><a href="#">CONTACT</a></li>
+        <li class="menu-icon" onclick="showSidebar()"><a href="#"><img src="images/menu-icon.svg" alt=""></a></li>
+      </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Welcome to Sleek Coffee</h1>
+    <p>Your destination for the finest coffee in town</p>
+    <a href="#" class="btn">Order Now</a>
+  </header>
+
+  <section class="about">
+    
+    <h2>About Us</h2>
+    <h1>Serving Since 1987</h1>
+    <div class="container">
+      <div class="about-content">
+        <div class="story">
+            <h3>Our Story</h3>
+            <p>
+             Nestled in the heart of our beloved city, our journey began with a simple idea: to share the joy of great coffee with our community. 
+              <br><br>
+              We believe in more than just a perfect brew; it's about creating moments that bring people together. 
+              <br><br>
+              With every sip, we invite you to be a part of our story — a tale of laughter, friendship, and the simple pleasure of sharing a cup of coffee with those we cherish.
+              </p>
+            <button>Learn More</button>
+        </div>
+        
+        <img src="images/coffee-2.jpg">
+
+        <div class="vision">
+            <h3>Our Vision</h3>
+            <p> To be the heart of our community, where everyone feels welcome and connected. We strive to create a space where laughter flows freely, friendships are forged, and every cup of coffee brings joy.
+              <br><br>
+              Our vision extends beyond serving great coffee; it's about fostering a sense of belonging and making a positive impact in the lives of those around us. With every interaction, we aim to brighten your day and leave you with a smile, knowing that you're a valued part of our journey</p>
+            <button>Learn More</button>
+        </div>
+        </div>
+       
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>OUR SERVICES</h2>
+      <h1>FRESH & ORGANIC BEANS</h1>
+  <div class="service-col">
+    <div class="service">
+      <img src="images/coffee-2.jpg">
+      <div class="service-info">
+        <h3><img src="images/best.svg">Best Quality Coffee</h3>
+        <p>Crafted with passion and precision, each sip is a journey of flavor, aroma, and satisfaction. From rich and robust blends to delicate and nuanced single-origin varieties, our commitment to quality ensures that every cup delivers an unparalleled coffee experience.</p>
+      </div>
+    </div>
+    <div class="service">
+      <img src="images/home-del.jpg">
+      <div class="service-info">
+        <h3><img src="images/cargo-truck.png">Home Delivery</h3>
+        <p>Whether you're craving a comforting cappuccino, a refreshing cold brew, our seamless home delivery service brings the delights of our coffee shop directly to you. Simply browse our menu, place your order online. Sit back, relax, and let us bring the joy of coffee right to your home.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="service-col">
+    <div class="service">
+      <img src="images/coffee-table.jpg">
+      <div class="service-info">
+        <h3> <img src="images/desktop window.svg">Online Table Booking</h3>
+        <p>Reserve your spot in our cozy coffee haven and ensure a delightful experience with every visit. Whether you're planning a romantic date,  or a productive work session,our table booking service guarantees you a warm welcome and a comfortable seat. </p>
+      </div>
+    </div>
+    <div class="service">
+      <img src="images/coffe-1.jpg">
+      <div class="service-info">
+        <h3> <img src="images/hot coffee.png" alt="">Fresh Coffee Beans</h3>
+        <p> Whether you prefer the bold intensity of dark roasts, the bright acidity of light roasts, or the balanced complexity of medium roasts, our range of fresh coffee beans caters to every palate and preference.</p>
+      </div>
+    </div>
+  </div>
+      
+     
+    </div>
+  </section>
+
+  <section class="discount">
+    <div class="container">
+      <h1>50% OFF</h1>
+      <h2>Sunday Special Offer</h2>
+      <h3>Only Available from sunday 28th April to 26th May 2024</h3>
+      <form class="discount-form" action="#" method="post">
+        <input type="email" name="email" placeholder="Enter your email address" required>
+        <button type="submit" class="btn">Sign Up</button>
+      </form>
+  
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>Menu & Pricing</h2>
+    <h1>Competitive Pricing</h1>
+    <div class="container">
+      <div class="menu-column">
+        <h2>Hot Coffee</h2>
+        <div class="menu-item">
+          <img src="images/coffee-2.jpg">
+          <div class="menu-item-info">
+            <h3>Espresso</h3>
+            <p>Need a little pick-me-up? Our bold and vibrant espresso shot will kickstart your day with its rich flavor and energizing boost.</p>
+          </div>
+        </div>
+      
+        <div class="menu-item">
+          <img src="images/cappucino.jpg">
+          <div class="menu-item-info">
+            <h3>Cappuccino</h3>
+            <p> Dive into the perfect harmony of rich espresso and velvety foam with our cappuccino, crafted to warm your soul with every sip.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/latte.jpg">
+          <div class="menu-item-info">
+            <h3>Latte</h3>
+            <p> Cozy up with our creamy latte, a warm hug in a cup that's perfect for those chilly mornings or relaxing afternoons.</p>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column">
+        <h2>Cold Coffee</h2>
+        <div class="menu-item">
+          <img src="images/iced-latte.jpg">
+          <div class="menu-item-info">
+            <h3>Iced Latte</h3>
+            <p> Chill out with our refreshing iced latte, combining creamy milk and espresso over ice for a cool and invigorating treat.</p>
+          </div>
+        </div>
+       
+        <div class="menu-item">
+          <img src="images/frappe.jpg">
+          <div class="menu-item-info">
+            <h3>Frappe</h3>
+            <p>Cool off in style with our creamy and indulgent frappe, a frosty blend of espresso, milk, and ice that's perfect for sipping on hot summer days.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/cold brew.jpg">
+          <div class="menu-item-info">
+            <h3>Cold Brew</h3>
+            <p>Beat the heat with our smooth and satisfying cold brew, brewed low and slow for a bold and refreshing caffeine kick.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="discount2">
+    <div class="container2">
+      <div class="discount-content">
+        <h1>30% OFF</h1>
+        <h2>For Online Reservation</h2>
+        <p>Experience the ultimate coffee journey with us. Reserve your table today and enjoy the finest brews and delectable treats at our cozy coffee shop.</p>
+        <p>Whether it's a casual meet-up with friends, a productive work session, or a romantic date, we have the perfect setting for you. Don't miss out on this exclusive offer!</p>
+      </div>
+      <div class="booking-form">
+        <h3>Book a Table</h3>
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input  required placeholder="Date">
+          <input placeholder="Time" required>
+          <input type="number" name="guests" placeholder="Number of Persons" required>
+          <button type="submit" class="btn">Book Now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="testimonials">
+    <h1>What Our Customers Are Saying</h1>
+    <div class="container">
+      <div class="testimonial">
+        <div class="testimonial-text">
+          <div class="user-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>What a gem! The cozy atmosphere and friendly staff make this coffee shop my go-to spot for a pick-me-up. The latte art is always on point, and the pastries are to die for. Can't recommend it enough!</p>
+            <span>Alex K.</span>
+          </div>
+          <div class="user-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>I stumbled upon this place while exploring the neighborhood, and I'm so glad I did. The cold brew here is hands down the best I've ever had. Smooth, bold, and perfectly chilled. It's become a part of my daily routine!</p>
+            <span>Sarah M.</span>
+          </div>
+          <div class="user-text active-text">
+            <i class="fa-solid fa-quote-left" ></i>
+              <p>I love this place! It's my go-to spot for catching up with friends or getting some work done. The wifi is reliable, the music is great, and the staff always makes me feel welcome. And did I mention the chai lattes? Absolutely divine!</p>
+            <span>Mark D.</span>
+          </div>
+          <div class="user-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>I'm not usually a coffee drinker, but after trying their iced mocha, I'm hooked! It's like dessert in a cup—rich, creamy, and oh-so-delicious. I find myself craving it constantly. Definitely a must-try!</p>
+            <span>Juddie B.</span>
+          </div>
+          <div class="user-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Hands down the best coffee shop in town! The cold brew is out of this world, and the pastries are always fresh and delicious. The staff goes above and beyond to make sure you have a fantastic experience. I come here every morning, and it never disappoints!</p>
+            <span>Brand T.</span>
+          </div>
+        </div>
+        <div class="testimonial-pic">
+          <img src="images/pic-1.jpg" class=" user-pic active-pic" onclick="showReview()">
+          <img src="images/pic-2.jpg" class="user-pic" onclick="showReview()">
+          <img src="images/pic3.jpg" class="user-pic" onclick="showReview()">
+          <img src="images/pic4.jpg" class="user-pic" onclick="showReview()">
+          <img src="images/pic5.jpg" class="user-pic" onclick="showReview()">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Get in Touch</h3>
+        <p>123 Coffee Street,<br>Cityville, CO 12345<br>Phone: 123-456-7890<br>Email: info@coffeeshop.com</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="#"><img src="images/facebook.png">Facebook</a></li>
+          <li><a href="#"><img src="images/twitter.png">Twitter</a></li>
+          <li><a href="#"><img src="images/instagram.png">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Opening Hours</h3>
+        <p>Monday - Friday: <br>7am - 7pm<br>Saturday - Sunday: <br> 8am - 6pm</p>
+      </div>
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <p>Stay updated with our latest promotions, events, and coffee news by subscribing to our newsletter.</p>
+        <form action="#" method="post">
+          <input type="email" name="email" placeholder="Enter your email address" required>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  
+
+  <script src="script.js">
+  </script>
+</body>
+</html>
