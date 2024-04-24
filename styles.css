@@ -148,7 +148,7 @@
   .about-content p {
     flex: 1;
     width: 275px;
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
     font-size: 1rem;
     font-family: Poppins;
@@ -160,13 +160,21 @@
     border-radius: 15px;
   }
   
-  .about-content button{
-    padding: 13px 30px;
-    color: #fff;
+  .button {
+    padding: 15px 30px;
+    background-color: #daa520;
+    color: #000;
     border: none;
     border-radius: 5px;
-    outline: none;
-    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+      background-color: #c0a409;
   }
   
   .story,
@@ -175,14 +183,14 @@
   }
   .about-content .story h3,
   .about-content .vision h3{
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 
   }
-  .about-content .story button{
+  .story .button{
     background: #240909;
-    margin: 10px 40px;
+    color: #fff;
   }
 
   .about-content .vision button{

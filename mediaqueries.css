@@ -279,7 +279,8 @@
 
   @media only screen and (max-width: 480px) {
     .hero h1 {
-      font-size: 2rem;
+      font-size: 1.8rem;
+      font-weight: 600;
     }
   
     .hero p {
@@ -310,12 +311,9 @@
         margin: 20px 0;
       }
     
-      .about-content .story button,
-      .about-content .vision button {
-        margin: 10px 0;
-        margin-left: 90px;
-        padding: 10px 20px;
-        font-size: 0.8rem;
+      .story .button,
+      .vision .button {
+       width: 60%;
       }
 
       #services h1 {
