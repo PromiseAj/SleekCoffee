@@ -1,0 +1,532 @@
+@media only screen and (max-width: 768px) {
+   
+    .hide{
+        display: none;
+      }
+       
+      
+      .menu-icon{
+        display: block;
+      }
+   
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 1.2rem;
+    }
+  
+    .btn {
+      padding: 15px 40px;
+      font-size: 1rem;
+    }
+
+    .about{
+        padding: 20px;
+    }
+    .about h1 {
+        font-size: 2.5rem;
+      }
+    
+      .about h2 {
+        font-size: 2rem;
+      }
+    
+      .about-content {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .about-content p {
+        width: auto;
+        margin: 0 20px 20px;
+        text-align: center;
+      }
+    
+      .about-content img {
+        width: 100%;
+        margin: 20px 0;
+      }
+    
+      .about-content .story button,
+      .about-content .vision button {
+        margin-top: 10px;
+        margin-left: 270px;
+      }
+
+      
+      #services h1 {
+        font-size: 2.5rem;
+      }
+    
+      #services h2 {
+        font-size: 2rem;
+      }
+    
+      .service-col {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .service {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .service img {
+        margin-bottom: 20px;
+      }
+    
+      .service-info {
+        width: auto;
+        margin: 0;
+      }
+    
+      .service p {
+        font-size: 16px;
+        line-height: 22px;
+      }
+
+      .discount h1 {
+        font-size: 4rem;
+      }
+    
+      .discount h2 {
+        font-size: 2.5rem;
+      }
+    
+      .discount h3 {
+        font-size: 2rem;
+      }
+    
+      .discount-form {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .discount-form input[type="email"] {
+        width: 80%;
+        margin-bottom: 10px;
+      }
+    
+      .discount-form button {
+        width: 80%;
+      }
+
+      #menu h1{
+        font-size: 2rem;
+      }
+
+      #menu .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .menu-column {
+        flex: 1;
+        width: 100%;
+        margin: 0;
+      }
+    
+      .menu-column h2 {
+        margin-left: 0;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    
+      .menu-item {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+    
+      .menu-item img {
+        width: 100px;
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    
+      .menu-item-info {
+        max-width: 100%;
+        text-align: center;
+      }
+    
+      .menu-item-info h3 {
+        margin-bottom: 10px;
+      }
+    
+      .menu-item-info p {
+        font-size: 14px;
+        font-family: Poppins;
+        text-align: center;
+      }
+
+      .discount-content h1 {
+        font-size: 4rem;
+      }
+    
+      .discount-content h2 {
+        font-size: 2rem;
+      }
+    
+      .discount-content p {
+        font-size: 1rem;
+        width: 100%;
+      }
+    
+      .booking-form {
+        height: auto;
+        padding: 20px;
+      }
+    
+      .booking-form h3 {
+        font-size: 2rem;
+        margin-top: 50px;
+      }
+    
+      .booking-form input {
+        width: 100%;
+      }
+    
+      .booking-form button {
+        width: 100%;
+        font-size: 1.2rem;
+      }
+
+      #testimonials h1 {
+        font-size: 2rem;
+        margin: 30px 0;
+      }
+    
+      .testimonial-text {
+        height: 200px;
+      }
+    
+      .user-text {
+        width: 90%;
+        font-size: 0.9rem;
+        line-height: 25px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 5px;
+      }
+    
+      .user-text .fa-solid {
+        font-size: 25px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+      }
+    
+      .user-text span {
+        font-size: 11px;
+        margin-top: 30px;
+      }
+    
+      .testimonial-pic {
+        margin: 30px 0;
+      }
+    
+      .user-pic {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+      }
+    
+      .user-pic.active-pic {
+        width: 70px;
+        height: 70px;
+        border: 2px solid #daa520;
+      }
+
+      .footer-section {
+        flex: 1;
+        margin-bottom: 30px;
+      }
+    
+      .footer-section h3 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+      }
+    
+      .footer-section p {
+        font-size: 0.9rem;
+      }
+    
+      .footer-section ul li {
+        margin-bottom: 8px;
+      }
+    
+      .footer-section form {
+        flex-direction: column;
+      }
+    
+      .footer-section input[type="email"] {
+        width: 100%;
+        margin-top: 8px;
+      }
+    
+      .footer-section button {
+        width: 100%;
+        margin-top: 8px;
+        font-size: 0.9rem;
+      }
+  }
+  
+
+  @media only screen and (max-width: 480px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+  
+    .btn {
+      padding: 12px 30px;
+      font-size: 0.9rem;
+    }
+
+    .about h1 {
+        font-size: 2rem;
+      }
+    
+      .about h2 {
+        font-size: 1.8rem;
+      }
+    
+      .about-content p {
+        margin: 0 10px 20px;
+        font-size: 0.9rem;
+      }
+    
+      .about-content img {
+        width: 100%;
+        margin: 20px 0;
+      }
+    
+      .about-content .story button,
+      .about-content .vision button {
+        margin: 10px 0;
+        margin-left: 90px;
+        padding: 10px 20px;
+        font-size: 0.8rem;
+      }
+
+      #services h1 {
+        font-size: 2rem;
+      }
+    
+      #services h2 {
+        font-size: 1.8rem;
+      }
+    
+      .service h3 {
+        font-size: 1rem;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+      }
+    
+      .service h3 img {
+        width: 12px;
+        height: 12px;
+        margin-right: 8px;
+        margin-top: 12px;
+      }
+      .service p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .discount h1 {
+        font-size: 3rem;
+      }
+    
+      .discount h2 {
+        font-size: 2rem;
+      }
+    
+      .discount h3 {
+        font-size: 1.5rem;
+      }
+    
+      .discount-form input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    
+      .discount-form button {
+        width: 100%;
+      }
+      #menu .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .menu-column {
+        flex: 1;
+        width: 100%;
+        margin: 0;
+      }
+    
+      .menu-column h2 {
+        margin-left: 0;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    
+      .menu-item {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+    
+      .menu-item img {
+        width: 80px;
+        margin-right: 0;
+        margin-bottom: 15px;
+      }
+    
+      .menu-item-info {
+        max-width: 100%;
+        text-align: center;
+      }
+    
+      .menu-item-info h3 {
+        margin-bottom: 10px;
+      }
+    
+      .menu-item-info p {
+        font-size: 12px;
+        font-family: Poppins;
+        text-align: center;
+      }
+      .discount2 .container2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .discount-content {
+        flex-basis: auto;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    
+      .booking-form {
+        flex-basis: auto;
+        width: 100%;
+        padding: 20px;
+      }
+    
+      .booking-form h3 {
+        font-size: 1.8rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+    
+      .booking-form input[type="email"] {
+        width: 100%;
+        margin-top: 10px;
+      }
+    
+      .booking-form button {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 0.9rem;
+      }
+
+      #testimonials h1 {
+        font-size: 1.7rem;
+        margin: 20px 0;
+      }
+    
+      .testimonial-text {
+        height: 200px;
+      }
+    
+      .user-text {
+        width: 90%;
+        font-size: 0.8rem;
+        line-height: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 10px;
+      }
+    
+      .user-text .fa-solid {
+        font-size: 20px;
+        margin-bottom: 25px;
+        margin-top: 15px;
+      }
+    
+      .user-text span {
+        font-size: 10px;
+        margin-top: 25px;
+      }
+    
+      .testimonial-pic {
+        margin: 10px 0;
+      }
+    
+      .user-pic {
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+      }
+    
+      .user-pic.active-pic {
+        width: 60px;
+        height: 60px;
+        border: 2px solid #daa520;
+      }
+
+      .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .footer-section {
+        flex: 1;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    
+      .footer-section h3 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+      }
+    
+      .footer-section p {
+        font-size: 0.9rem;
+      }
+    
+      .footer-section ul li {
+        margin-bottom: 8px;
+      }
+    
+      .footer-section form {
+        flex-direction: column;
+      }
+    
+      .footer-section input[type="email"] {
+        width: 100%;
+        margin-top: 8px;
+      }
+    
+      .footer-section button {
+        width: 100%;
+        margin-top: 8px;
+        font-size: 0.9rem;
+      }
+  }
+  

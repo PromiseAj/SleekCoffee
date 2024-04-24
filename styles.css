@@ -141,19 +141,21 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 30px auto;
+    max-width: 1100px;
   }
   
   .about-content p {
     flex: 1;
-    width: 270px;
+    width: 275px;
+    text-align: left;
     margin-bottom: 20px;
-    text-align: justify;
     font-size: 1rem;
     font-family: Poppins;
   }
   
   .about-content img {
-    width: 350px;
+    width: 370px;
     margin: 0 100px;
     border-radius: 15px;
   }
@@ -167,6 +169,10 @@
     font-weight: 600;
   }
   
+  .story,
+  .vision{
+    height: 500px;
+  }
   .about-content .story h3,
   .about-content .vision h3{
     font-size: 2rem;
@@ -176,23 +182,19 @@
   }
   .about-content .story button{
     background: #240909;
-    margin-left: 50px;
+    margin: 10px 40px;
   }
 
   .about-content .vision button{
     background: #daa520;
-    margin-left: 50px;
+    margin: 10px 40px;
   }
 
-  #services h2{
-    text-align: center;
-    color: #daa520;
-    font-size: 30px;
-  }
+ 
 
   #services{
     background-color: #f8f8f8;
-    padding: 100px 0;
+    padding: 30px 100px;
   }
   #services h1{
     text-align: center;
@@ -201,6 +203,11 @@
     margin-top: 5px;
   }
 
+  #services h2{
+    text-align: center;
+    color: #daa520;
+    font-size: 30px;
+  }
   
   #services h2 {
     font-size: 2rem;
@@ -211,7 +218,8 @@
   .service-col{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin: 30px auto 0;
+    max-width: 1200px;
   }
   
   .service {
@@ -219,7 +227,7 @@
     flex-direction: row;
     align-items: center;
     margin-bottom: 30px;
-    padding: 10px 100px;
+    padding: 30px;
   }
   
   .service-info {
@@ -317,6 +325,7 @@
   
   #menu {
     padding: 100px;
+    background-color: #f8f8f8;
   }
   
   #menu h1,
@@ -337,6 +346,8 @@
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
+    max-width: 1100px;
+    margin: 40px auto 0;
   }
   
   .menu-column {
@@ -389,7 +400,8 @@
   .discount2 .container2 {
     display: flex;
     align-items: center;
-    padding-left: 70px;
+    justify-content: center;
+    padding: 30px;
   }
   
   .discount-content {
@@ -462,11 +474,13 @@
     background-color: #a37c1a;
   }
 
+  
   #testimonials .container{
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px auto;
   }
   #testimonials h1{
     text-align: center;
@@ -475,7 +489,7 @@
     color: #240909;
   }
   .testimonial{
-    width: 90%;
+    width: 100%;
     max-width: 800px;
     margin: auto;
   }
@@ -519,15 +533,14 @@
   }
   
   .testimonial-pic{
-    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .user-pic{
-    width: 65px;
-    height: 65px;
+    width: 35px;
+    height: 35px;
     padding: 5px;
     border-radius: 50%;
     margin: 10px;
